@@ -1,14 +1,5 @@
 {
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vue/cli-service-global",
-        "config": {
-          "scripts": {
-            "build": "vue-cli-service build"
-          }
-        },
-        "dest": "dist"
-      }
-    ]
+    "github": {
+        "silent": true
+    }
   }
